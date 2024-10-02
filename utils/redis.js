@@ -51,7 +51,7 @@ class RedisClient {
 
   /**
    * Removes the value of a given key.
-   * @param {String} key The key of the item to remove.
+   * @param {String} key The key of item to remove.
    * @returns {Promise<void>}
    */
   async del(key) {
